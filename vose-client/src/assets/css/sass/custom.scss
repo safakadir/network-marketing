@@ -1,0 +1,78 @@
+th, td {
+    white-space: nowrap;
+}
+
+.btn {
+    white-space: nowrap;
+}
+
+.input-mini {
+    padding:3px !important;
+    width:40px;
+    height:23px !important;
+    display:inline-block;
+}
+
+dl {
+    color: $theme-color-title;
+}
+
+.modal-content footer {
+    display: flex !important;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.admin {
+    .auth-card {
+        .image-side {
+            background: url("/assets/img/login/management.jpg") no-repeat center top;
+            background-size: cover;
+        }
+    }
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.register {
+    .auth-card {
+        .image-side {
+            //  linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), 
+            background: url("/assets/img/login/office.jpg") no-repeat right top;
+            background-size: cover;
+        }
+    }
+}
+
+
+.center-xs {
+    @include respond-below(xs) {
+        text-align: center;
+    }
+}
+
+.center-sm {
+    @include respond-below(sm) {
+        text-align: center;
+    }
+}
+
+.sideless-main {
+    margin-left: $main-margin;
+
+    @include respond-below(xl) {
+      margin-left: $main-margin-lg;
+    }
+  
+    @include respond-below(lg) {
+      margin-left: $main-margin-md;
+    }
+  
+    @include respond-below(sm) {
+      margin-left: $main-margin-xs !important;
+    }
+}
