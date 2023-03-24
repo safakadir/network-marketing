@@ -19,7 +19,7 @@ The project is abondoned by the requirer and became inactive, and had never been
 
 ## Getting Started
 
-Required steps to get up the application will be provided later when I get the free time to dust off.
+Required steps to get the application up will be provided later when I get the free time to dust off.
 
 
 ## Features
